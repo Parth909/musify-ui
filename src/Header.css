@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    position: fixed;
+    margin-left:250px; 
+    max-width: 100vh;
+}
+
+.header__left {
+    flex: 0.6;
+    min-width: 70px;
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    color: gray;
+    align-items: center;
+}
+
+.header__left > input {
+    border:none;
+    width: 100%;/* input covers 100% of the parent div */
+}
+
+.header__right {
+    display:flex;
+    align-items:center;
+}
+
+.header__right > h4 {
+    margin-left:10px;
+}

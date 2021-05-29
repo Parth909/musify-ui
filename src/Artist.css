@@ -1,0 +1,77 @@
+.artist {
+  padding-left: 260px;
+  width: 100%;
+  padding-bottom: 160px;
+}
+
+.artist > h1 {
+  margin-left: 35px;
+}
+
+.artist__posters {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.artist__poster {
+  overflow-wrap: break-word;
+  background-color: rgb(56, 56, 56);
+  border-radius: 20px;
+  min-width: 200px;
+  max-width: 300px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  padding: 0;
+  padding-bottom: 5px;
+  transition: transform 450ms; /*when the tranform will be triggered the transition will kick in*/
+}
+
+.artist__poster:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.artist__image {
+  width: 100%;
+  object-fit: contain; /* will maintain the aspect-ratio*/
+  height: 300px !important;
+}
+
+.artist_post {
+  cursor: pointer;
+  margin: 15px;
+  color: white;
+  text-align: center;
+}
+
+.artist_post > h4 {
+  margin-bottom: 10px;
+}
+
+.artist_info {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.artist_info > img {
+  height: 20vw;
+  margin: 0 20px;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.body__infoText {
+  flex: 0.9; /* covers the remaining space */
+}
+
+.body__infoText > h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.body__infoText > p {
+  font-size: 14px;
+}

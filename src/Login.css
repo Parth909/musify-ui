@@ -1,0 +1,64 @@
+.login{
+    display:grid;/* centering things on the page */
+    place-items: center;/* centering things on the page */
+    height: 100vh;
+    position: relative;
+    background: #696969;
+    overflow: hidden;
+}
+
+/* this styling to have the backimg with low opacity & font remaining the same */
+.login:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url('assets/MusicImage.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/* the button styled */
+.login > a {
+    padding:15px;
+    background-color:#1db954;
+    border-radius:99px;
+    font-weight:700;
+    color:white;
+    text-decoration:none;/* to prevent the underline from appearing */
+}
+
+.musify__logo{
+    color:gray;
+    height:100px;
+    width:100px;
+}
+
+.musify__logoDiv{
+    z-index: 2;
+    position: relative;
+    height: 300px;
+}
+
+
+/* the button styled again */
+.login__button{
+    z-index: 2;
+    position: relative;
+}
+
+.musify__logoDiv > span{
+    
+    color:#00D95F;
+    font-size: 140px;
+}

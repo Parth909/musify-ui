@@ -1,0 +1,66 @@
+.row {
+  overflow-x: hidden;
+  display: block;
+  margin-left: 240px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.link-dec-none {
+  text-decoration: none;
+}
+
+.row__h2 {
+  margin-left: 50px;
+}
+
+.row__posters {
+  /* justify-content: space-around; */
+  display: flex !important;
+  overflow-y: hidden !important;
+  overflow-x: scroll !important;
+  padding: 20px;
+  padding-top: 0px;
+  /* margin-left:230px; */
+}
+
+.row__posters::-webkit-scrollbar {
+  display: none; /* display none but keep the functionality */
+}
+
+.inner_post {
+  cursor: pointer;
+  margin: 15px;
+  color: white;
+}
+
+.inner_post > span {
+  margin-bottom: 20px;
+}
+
+.row__poster {
+  overflow-wrap: break-word;
+  background-color: rgb(56, 56, 56);
+  border-radius: 20px;
+  min-width: 200px;
+  max-width: 380px;
+  margin: 10px;
+  padding-bottom: 5px;
+  transition: transform 450ms; /*when the tranform will be triggered the transition will kick in*/
+}
+.row__image {
+  width: 100%;
+  object-fit: contain; /* will maintain the aspect-ratio*/
+  min-height: 220px !important;
+  max-height: 340px;
+  margin-right: 10px;
+}
+
+.row__poster:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.card {
+  display: inline;
+}

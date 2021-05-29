@@ -1,0 +1,40 @@
+.sidebarOption {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    /* height: 30px; */
+    color: grey;
+    transition: 200ms color ease-in;
+  }
+  
+  .sidebarOption > span {
+    padding:7px;
+    font-weight: 700;
+    font-size:17px;
+  }
+
+  .sidebarOption > .sidebarOption__ptitle {
+    font-weight: 600;
+    font-size:15px;    
+  }
+
+  .sidebarOption:hover {
+    color: white;
+  }
+  
+  .sidebar > hr {
+    border: 1px solid #282828;
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  .sidebarOption__icon {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .sidebarOption > p {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+  }

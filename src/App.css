@@ -1,0 +1,10 @@
+.app{
+    /* padding:30px; */
+    /* flex:0.8;the display:flex is given to the parent */
+    /* covers 80% of the width */
+    background: rgb(2,0,36);
+    background: linear-gradient(6deg, rgba(2,0,36,1) 0%, rgba(55,55,64,1) 100%, rgba(0,212,255,1) 100%);
+    color:white;
+    height: 100vh;/*this line and the line below help to keep the sidebar fixed & scroll only the body*/
+    overflow-y:overlay;
+}
