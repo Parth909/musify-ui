@@ -1,14 +1,31 @@
-## Musify - react 
+## Musify
 
-### Available Scripts
+This is a very minimal version of a music app
 
-In the project directory, you can run:
+These are screenshots if the site is down for some reason
 
-### `npm start`
+The Song will play if and only if you are a **Premium member**
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### 1. The Landing Page
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![The Landing Page](Rimages/1.PNG)
 
+#### 2. After logging in with your spotify account
+
+The Home Page
+
+![The Home Page](Rimages/2.PNG)
+
+![The Home Page](Rimages/3.PNG)
+
+#### 3. The Search Page
+
+![The Search Page](Rimages/4.PNG)
+
+![The Search Page](Rimages/5.PNG)
+
+#### 4. The Playlist Page
+
+This page will display all the songs in that playlist
+
+![The Playlist Page](Rimages/6.PNG)
