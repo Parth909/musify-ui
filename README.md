@@ -29,3 +29,5 @@ The Home Page
 This page will display all the songs in that playlist
 
 ![The Playlist Page](Rimages/6.PNG)
+
+![The Playlist Page](Rimages/7.PNG)
